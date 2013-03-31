@@ -1,0 +1,51 @@
+[reader]
+Label = NTV+
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = serv13.zargacum.net,3001
+Account = user,password
+CAID = 0500
+IDENT = 030600,040600
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = TRK Ukraina,Football (4.8å)
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = serv13.zargacum.net,2001 
+Account = user,password
+CAID = 0500
+IDENT = 023100,024700
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = Al Jazeera Sport (13e)
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = serv10.zargacum.net,2001
+Account = user,password
+CAID = 0500
+IDENT = 042400
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = viasat (5e)
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = serv13.zargacum.net,3007
+Account = user,password
+CAID = 090f
+IDENT = 000000
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15

@@ -1,0 +1,5 @@
+[account]
+User=tuner
+Pwd=tuner
+Group=1
+IDENT=0500:030600,040600,023100,024700,042400;090F:000000
