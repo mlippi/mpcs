@@ -6,7 +6,7 @@ copy to: /usr/local/etc
 
 mpcs-linux - bin-file
 
-/home/mlippi/mpcs/mpcs-linux -c /home/mlippi/mpcs
+/home/ml77/mpcs/mpcs-linux -c /home/ml77/mpcs
 
 yum install ld-linux.so.2
 
