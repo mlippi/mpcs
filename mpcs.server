@@ -3,7 +3,7 @@ Label = NTV+
 Protocol = newcamd
 Key = 0102030405060708091011121314
 Device = uk629.cserver.tv,3001
-Account = user,password
+Account = mlippi,password
 CAID = 0500
 IDENT = 040600
 Fallback = 0
@@ -12,13 +12,13 @@ ReconnectTimeout = 20
 InactivityTimeOut = 15
 
 [reader]
-Label = TRK Ukraina,Football (4.8�)
+Label = ART (13E),TRK Ukraina,Football, ICTV (4.8е),Akta,Max TV(5e/16e),Private Spice (13E),Red Hot Sex (13E)+All
 Protocol = newcamd
 Key = 0102030405060708091011121314
-Device = uk629.cserver.tv,2001 
-Account = user,password
+Device = uk629.cserver.tv,2001
+Account =mlippi,password
 CAID = 0500
-IDENT = 023100,024700
+IDENT =024F00,023100,041700,032820,032500,043800,042700,032000,042800,042810,042200,042400,023800,042300
 Fallback = 0
 Group = 1
 ReconnectTimeout = 20
@@ -29,7 +29,7 @@ Label = Al Jazeera Sport (13e)
 Protocol = newcamd
 Key = 0102030405060708091011121314
 Device = uk629.cserver.tv,2001
-Account = user,password
+Account = mlippi,password
 CAID = 0500
 IDENT = 042400
 Fallback = 0
@@ -42,8 +42,73 @@ Label = viasat (5e)
 Protocol = newcamd
 Key = 0102030405060708091011121314
 Device = uk629.cserver.tv,3007
-Account = user,password
+Account = mlippi,password
 CAID = 090f
+IDENT = 000000
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = CYFRA+13
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = uk629.cserver.tv,3008
+Account =mlippi,password
+CAID = 0100
+IDENT =000068,006800
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = CyfrowyPolsat13
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = uk629.cserver.tv,3010
+Account =mlippi,password
+CAID = 1803
+IDENT = 000000,007001,007101
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = SKY_IT13
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = uk629.cserver.tv,3034
+Account =mlippi,password
+CAID = 09CD
+IDENT = 000000
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = NOVA13
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = uk629.cserver.tv,3015
+Account =mlippi,password
+CAID = 0604
+IDENT = 000000
+Fallback = 0
+Group = 1
+ReconnectTimeout = 20
+InactivityTimeOut = 15
+
+[reader]
+Label = XTRA4W
+Protocol = newcamd
+Key = 0102030405060708091011121314
+Device = uk629.cserver.tv,3037
+Account =mlippi,password
+CAID = 0B0F
 IDENT = 000000
 Fallback = 0
 Group = 1
